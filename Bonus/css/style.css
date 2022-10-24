@@ -5,11 +5,6 @@
     box-sizing: border-box;
 }
 
-body{
-    /* DEBUG */
-    /* background-color: blue; */
-}
-
 h1{
     text-align: center;
     margin: 10px;
@@ -21,9 +16,9 @@ h1{
 [class*="col-"]{
     background-color: #006cfa;
     border: 1px solid white;
+    align-items: center;
     color:white;
-    text-align: center;
-    line-height: 50px;
+    padding: 10px;
     min-height: 50px;
 }
 
@@ -31,20 +26,31 @@ h1{
 
 [class*="col-5"]{
     display: flex;
-    background-color: #006cfa;
-    border: 1px solid white;
-    color:white;
-    padding: 10px;
 }
 
 /* Col-6 Rules*/
 
 [class*="col-6"]{
     display: flex;
-    background-color: #006cfa;
-    border: 1px solid white;
-    color:white;
-    padding: 10px;
+    justify-content: center;
+}
+
+[class*="big"]{
+    height: 100px;
+} 
+
+[class*="small"]{
+    height: 50px;
+}
+
+[class*="center"]{
+    height: 50px;
+    align-self: center;
+}
+
+[class*="bottom"]{
+    height: 50px;
+    align-self: flex-end;
 }
 
 /* Col-7 Rules*/
@@ -52,17 +58,13 @@ h1{
 [class*="col-7"]{
     display: flex;
     justify-content: center;
-    background-color: #006cfa;
-    border: 1px solid white;
-    color:white;
-    padding: 10px;
 }
     
 /* Col-Nest Rules */
 
-/* DEBUG */
-[class*="-nest"]{
+[class*="nest"]{
     background-color: #00e265;
     color:white;
     margin: 2px;
 }
+
