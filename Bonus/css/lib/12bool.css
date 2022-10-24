@@ -27,6 +27,17 @@
     /* min-height: 100px; */
 }
 
+.row.middle{
+    display: flex;
+    justify-content: center;
+}
+
+.row.end{
+    display: flex;
+    justify-content: end;
+}
+
+
 /* Col Rules */
 
 [class*="col-"]{
@@ -67,7 +78,6 @@
 }
 
 .col-6{
-
     flex-basis: calc((100% / 12)* 6);
     max-width: calc((100% / 12)* 6);
 }
