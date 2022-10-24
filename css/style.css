@@ -22,7 +22,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blue;
+    background-color: #006cfa;
     border: 1px solid white;
     color:white;
     min-height: 50px;
@@ -33,7 +33,7 @@ h1{
 [class*="col-6"]{
     display: flex;
     justify-content: center;
-    background-color: blue;
+    background-color: #006cfa;
     border: 1px solid white;
     color:white;
     padding: 10px;
@@ -43,7 +43,7 @@ h1{
 
 /* DEBUG */
 [class*="col-nest-"]{
-    background-color: green;
+    background-color: #00e265;
     color:white;
     margin: 2px;
 }
