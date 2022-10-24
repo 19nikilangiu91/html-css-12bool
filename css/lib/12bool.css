@@ -1,0 +1,16 @@
+/* General Rules */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container Rules */
+
+.container{
+    max-width: 1170px;
+    margin: 10px auto;
+    /* DEBUG */
+    background-color: red;
+    min-height: 100px;
+}
