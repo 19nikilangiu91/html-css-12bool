@@ -19,11 +19,12 @@ h1{
 
 /* DEBUG */
 [class*="col-"]{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: blue;
     border: 1px solid white;
     color:white;
-    text-align: center;
-    line-height: 50px;
     min-height: 50px;
 }
 
@@ -41,7 +42,7 @@ h1{
 /* Col-Nest Rules */
 
 /* DEBUG */
-[class*="col-nest"]{
+[class*="col-nest-"]{
     background-color: green;
     color:white;
     margin: 2px;
